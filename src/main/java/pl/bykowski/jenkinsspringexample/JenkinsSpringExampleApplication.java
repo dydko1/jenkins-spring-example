@@ -15,7 +15,7 @@ public class JenkinsSpringExampleApplication {
 
     @GetMapping
     public String get() {
-        return "Dzieki Byku! Tu był Miro";
+        return "Dzieki Byku! Tu byl Miro";
     }
 
 }
