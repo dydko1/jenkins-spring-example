@@ -25,6 +25,6 @@ class JenkinsSpringExampleApplicationTests {
         this.mockMvc.perform(get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Dzieki Byku! Tu był Miro"));
+                .andExpect(content().string("Dzieki Byku! Tu byl Miro"));
     }
 }
